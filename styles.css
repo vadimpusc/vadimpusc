@@ -1,20 +1,22 @@
 body {
+    display:block;
+    justify-content: center;
+    align-items: center;
     font-family: 'Poppins', sans-serif;
+    height: 100vh;
 }
 
-section {
+/* section {
     background-color: white;
-}
+} */
 
 .hero {
-    background-color: white;
     height: 100vh;
     color: white;
     font-size: 30px;
 }
 
 footer {
-    background-color: white;
     height: 60vh;
     color: white;
     text-align: center;
@@ -85,7 +87,7 @@ margin-bottom: 200px;
 }
 
 .button {
-    width: 200px;
+    width: 250px;
     height: 55px;
     border-radius: 25px;
     background-color: orange;
@@ -94,10 +96,25 @@ margin-bottom: 200px;
     font-weight: 100;
     padding-top: 5px;
     margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .button:hover {
-    background-color: orange;
+    opacity: 70%;
+    cursor: pointer;
+    transform: scale(1.03);
+    box-shadow:
+    rgba(240, 46, 170, 0.4) 0px 5px,
+    rgba(240, 46, 170, 0.3) 0px 10px,
+    rgba(240, 46, 170, 0.2) 0px 15px,
+    rgba(240, 46, 170, 0.1) 0px 20px,
+    rgba(240, 46, 170, 0.0) 0px 25px,
+    ;
+}
+
+.button::selection {
+    color: none;
+    background-color: none;
 }
 
 .button:active {

@@ -95,12 +95,12 @@ margin-bottom: 200px;
 }
 
 .button {
-    width: 250px;
-    height: 55px;
-    border-radius: 25px;
-    background-color: orange;
+    width: 180px;
+    height: 35px;
+    border-radius: 50px;
+    background-color: black;
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 100;
     padding-top: 5px;
     margin-top: 20px;
@@ -121,7 +121,8 @@ margin-bottom: 200px;
 }
 
 .button:hover {
-    opacity: 70%;
+    opacity: 80%;
+    background-color: black;
     cursor: pointer;
     transform: scale(1.03);
     box-shadow:

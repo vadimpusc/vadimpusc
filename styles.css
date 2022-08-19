@@ -1,9 +1,7 @@
 body {
     display:block;
-    justify-content: center;
-    align-items: center;
     font-family: 'Poppins', sans-serif;
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 /* section {
@@ -18,7 +16,7 @@ body {
 
 footer {
     display: block;
-    height: 100vh;
+    height: 100%;
     width: auto;
     color: white;
     text-align: center;
@@ -53,6 +51,11 @@ h2 {
     color: black;
 }
 
+h3 {
+    font-size: clamp(10px, 1px + 10vw, 40px);
+    line-height: 100%;
+}
+
 h4 {
     font-size: 30px;
     margin-bottom: 10px;
@@ -74,8 +77,8 @@ p {
 
 a {
     text-decoration: none;
-    font-weight: 600;
-    color: black;
+    /* font-weight: 600; */
+    color: white;
 }
 
 .subtext {
@@ -168,7 +171,6 @@ margin-bottom: 200px;
 
 .sub-section-2 {
     display: flex;
-    /* width: 100%; */
     justify-content: space-around;
     flex-direction: column;
     text-align: center;
@@ -272,4 +274,61 @@ padding-top: 100px;
 section {
     width: 90%;
     margin: auto;
+}
+
+
+/* New version */
+
+
+.whole-portfolio {
+    text-align: center;
+    align-items: center;
+}
+
+.portfolio-container {
+}
+
+.portfolio-item {
+    padding-top: 30px;
+
+}
+
+.single-item {
+}
+
+.portfolio-img {
+    width: 50%;
+}
+
+.portfolio-subtext {
+    width: 100%;
+    font-size: clamp(15px, 30px);
+}
+
+.portfolio-button {
+    width: 120px;
+    height: 35px;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 100;
+    padding-top: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: auto;
+}
+
+.portfolio-button:hover {
+    opacity: 80%;
+    background-color: black;
+    cursor: pointer;
+    transform: scale(1.03);
+    box-shadow:
+    rgba(240, 46, 170, 0.4) 0px 5px,
+    rgba(240, 46, 170, 0.3) 0px 10px,
+    rgba(240, 46, 170, 0.2) 0px 15px,
+    rgba(240, 46, 170, 0.1) 0px 20px,
+    rgba(240, 46, 170, 0.0) 0px 25px,
+    ;
 }

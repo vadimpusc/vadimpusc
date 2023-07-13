@@ -16,9 +16,8 @@ footer {
     text-align: center;
 }
 
-nav {
-    /* display: flex; */
-    /* justify-content: space-between; */
+nav > * {
+    font-size: 30px;
 }
 
 

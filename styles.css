@@ -106,6 +106,7 @@ margin-bottom: 200px;
     height: 44px;
     display: flex;
     color: white;
+    border: none;
 
     align-items: center;
     justify-content: center;
@@ -118,6 +119,7 @@ margin-bottom: 200px;
     margin-top: 20px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
+
 
 .button:hover {
     opacity: 80%;
@@ -133,9 +135,38 @@ margin-bottom: 200px;
     ;
 }
 
-.yes-no-btn {
-    
+.little-button {
+    color: black;
 }
+
+.little-button:hover {
+    color: white;
+    background-color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.yes {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.no {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+.yes:hover {
+    background-color: greenyellow;
+    cursor: pointer;
+    }
+
+.no:hover {
+background-color: red;
+cursor: pointer;
+}
+
 
 .socials {
     padding-bottom: 200px;

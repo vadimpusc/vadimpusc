@@ -7,7 +7,7 @@ function toggleButton() {
 
 hamburgerButton.addEventListener('click', toggleButton)
 
-// *** Change color function ***
+// *** Change color ***
 const select = document.querySelector('.button');
 
 select.addEventListener('click', function() {

@@ -34,8 +34,7 @@ body {
     .logo {
       justify-content: center;
       text-align: center;
-
-
+      font-size: 40px;
     }
   }
   
@@ -46,6 +45,10 @@ body {
     margin-bottom: 10px;
     text-transform: uppercase;
   }
+
+  /* .nav-link:hover {
+    background-color: pink;
+  } */
 
   @media screen and (max-width:768px) {
     .nav-link {
@@ -99,6 +102,8 @@ body {
       width: 100%;
       height: auto;
       position: static;
+      padding: 0;
+      padding-top: 10px;
     }
   
     #main-space {

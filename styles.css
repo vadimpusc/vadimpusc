@@ -126,7 +126,7 @@ body {
 
 a {
   text-decoration: none;
-  color: rgb(220, 22, 157);;
+  color: rgb(220, 22, 157);
 }
   p {
     font-size: 18px;
@@ -180,9 +180,19 @@ padding: 20px;
     font-size: 34px; 
 }
 
-.text p {
+.All-Rights p {
   /* display: none; */
   position: absolute;
   top: 93vh;
   font-size: 10px;
+}
+
+@media screen and (max-width:678px) {
+  .All-Rights p {
+    display: none;
+  }
+}
+
+.pinky {
+  color: rgb(220, 22, 157);
 }

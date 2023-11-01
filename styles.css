@@ -101,6 +101,16 @@ body {
 
   }
 
+  .work {
+    height: 100%;
+    margin-bottom: 40px;
+    padding: 20px;
+  }
+
+  .project-name {
+    font-size: 30px;
+  }
+
   .main-section header {
     font-size: 20px;
     margin-bottom: 10px;
@@ -196,3 +206,41 @@ padding: 20px;
 .pinky {
   color: rgb(220, 22, 157);
 }
+
+.work-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+/* align-items: center; */
+}
+@media screen and (min-width: 1400px) {
+  .work-container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .work-container {
+    grid-template-columns: 1fr;
+  }
+}
+.work-item * {
+  width: 100%;
+  text-align: center;
+  line-height: normal;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+
+.work-item img {
+  object-fit: cover;
+  border-radius: 5%;
+}
+
+/* @media screen and (max-width:868px) {
+  .project-subtitle {
+    font-size: 14px;
+  }
+} */

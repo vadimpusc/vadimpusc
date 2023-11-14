@@ -1,6 +1,8 @@
 * {
   scroll-behavior: smooth;
   overflow-x: hidden;
+  user-select: none; /* Standard syntax */
+    -webkit-user-select: none; /* Safari-specific */
 }
 body {
     margin: 0;

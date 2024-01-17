@@ -136,6 +136,11 @@ body {
      }
   }
 
+
+  .note {
+    font-size: 12px;
+  }
+
 a {
   text-decoration: none;
   color: rgb(220, 22, 157);

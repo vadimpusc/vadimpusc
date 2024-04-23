@@ -10,6 +10,8 @@ body {
     font-family:monospace, sans-serif;
     font-weight: 500;
     line-height: 1.5;
+    background-color: black;
+    color: white;
   }
   
   #navbar {
@@ -25,18 +27,28 @@ body {
   
 
   .logo {
-    font-size: 54px;
+    font-size: 44px;
     display: block;
     padding: 0;
     color: white;
     text-transform: uppercase;
   }
 
+  .sub-logo {
+    font-size: 20px;
+    /* border: dotted 1px white; */
+  }
+
   @media screen and (max-width:768px) {
     .logo {
       justify-content: center;
       text-align: center;
-      font-size: 40px;
+      font-size: 50px;
+    }
+    .sub-logo {
+      justify-content: center;
+      text-align: center;
+      font-size: 20px;
     }
   }
   
@@ -46,6 +58,7 @@ body {
     text-decoration: none;
     margin-bottom: 10px;
     text-transform: uppercase;
+    font-size: 20px;
   }
 
   /* .nav-link:hover {
@@ -54,7 +67,7 @@ body {
 
   @media screen and (max-width:768px) {
     .nav-link {
-      font-size: 30px;
+      font-size: 20px;
     }
   }
 
@@ -147,11 +160,13 @@ a {
 }
   p {
     font-size: 18px;
+    color: white;
   }
 
   li {
    text-decoration: none;
    list-style: none;
+   /* font-size: 18px; */
   }
 
 
@@ -171,6 +186,7 @@ a {
  
   .main-image {
     width: 100%;
+    border-radius: 10px;
   }
 
   footer {
@@ -204,7 +220,7 @@ padding: 20px;
   font-size: 10px;
 }
 
-@media screen and (max-width:678px) {
+@media screen and (max-width:778px) {
   .All-Rights p {
     display: none;
   }
@@ -243,7 +259,8 @@ padding: 20px;
 
 .work-item img {
   object-fit: cover;
-  border-radius: 5%;
+  border-radius: 10px;
+
 }
 
 /* @media screen and (max-width:868px) {
